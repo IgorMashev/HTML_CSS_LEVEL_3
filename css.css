@@ -241,10 +241,15 @@ article a {
 }
 .pager ul li {
     display: inline;
-}.pager ul li:nth-child(3) {
+    margin-right: 10px;
+}
+.pager ul li:nth-child(3) {
     font-size: 18px;
      color: #444444;
  }
+.pager ul li:last-child {
+    margin-right: unset;
+}
 .bottom-content {
     margin-top: 95px;
     display: flex;
